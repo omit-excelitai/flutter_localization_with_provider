@@ -71,8 +71,8 @@ class HomePage extends StatelessWidget {
                   padding: 5,
                   showOnOff: true,
                   onToggle: (value) {
-                    //final newLocale = value ? const Locale('bn') : const Locale('en');
-                    localeProvider.setLanguage(value.toString());
+                    final newLocale = value ? const Locale('bn') : const Locale('en');
+                    localeProvider.setLanguage(newLocale.toString());
                   },
                 ),
               ],
