@@ -11,7 +11,7 @@ class AppLocalizations {
     'en': {
       'title': 'Localization App',
       'greeting': 'Name: Omit Kumar',
-      'switchButton': 'Change the language',
+      'switchButton': 'Change language',
       'address': 'Address: Shewrapara, Mirpur, Dhaka',
     },
     'bn': {
